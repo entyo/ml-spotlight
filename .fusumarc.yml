@@ -1,0 +1,23 @@
+meta:
+  title: はてな匿名ダイアリーにおける投稿の著者性別推定
+  thumbnail: https://pbs.twimg.com/profile_images/1192246340845092864/T3Th9swg_400x400.png
+  description: 主専攻実習（秋AB）の機械学習班での発表
+slide:
+  loop: false
+  sidebar: true
+  targetBlank: true
+  showIndex: true
+  isVertical: false
+  code:
+    languages:
+      - javascript
+    plugins: []
+    theme: dark
+  chart: false
+  math: false
+extends:
+  js:
+  css: ./style.css
+  webpack:
+build:
+  ssr: true
