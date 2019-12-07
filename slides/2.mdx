@@ -1,7 +1,14 @@
-import {Img } from '@fusuma/client';
+import { Card } from '@fusuma/client';
 
-<section>
-  <Img src="../anond_archive_ideal.png" >
-  <p className="thinking-face" >🤔</p>
-  </Img>
-</section>
+<Card
+  left={<img src="../anond_example.png" />}
+  right={
+    <>
+      <h1>🤔</h1>
+      <ul>
+        <li>一人称代名詞が俺、"妻"について話している → 男性？</li>
+        <li>かわいい子供 & ご両親がご存命 → 20代後半~30代前半？？</li>
+      </ul>
+    </>
+  }
+/>
