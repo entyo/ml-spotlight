@@ -1,8 +1,11 @@
 <>
  <h1>やったこと</h1>
- <ol start="0" >
-   <li>年代はなんとなく難しそうなので、とりあえず性別が自動推定できるか試すことに</li>
-   <li>先行研究（池田ら「<a href="https://www.anlp.jp/proceedings/annual_meeting/2006/pdf_dir/C2-3.pdf" >blog の著者の性別推定</a>」など）を調査 → 学習に使う素性を検討</li>
+ <ol start="1" >
+   <li>先行研究を調査 </li>
+   <ul className="indent-1" >
+     <li>年代の推定は難しいらしい → とりあえず性別が自動推定できるか試すことに</li>
+     <li>性別推定に使う素性は何が有効？ → 一人称代名詞、機能語、ひらがなの割合など</li>
+   </ul>
    <li>はてな匿名ダイアリーはラベル付けが大変 & 文字数不足 → Amebaブログなどからデータセットを構築</li>
    <li><b>F#</b> & <b>ML.NET</b>で学習・分類のプログラムを実装</li>
    <ul className="indent-1" ><li>Random Forestで二値分類問題として解いた</li></ul>
